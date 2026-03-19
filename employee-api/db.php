@@ -1,0 +1,10 @@
+<?php
+$conn = new mysqli("localhost", "root", "", "employee_db");
+
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+header("Content-Type: application/json");
+header("Access-Control-Allow-Origin: *");
+?>
