@@ -1,73 +1,73 @@
-Employee Manager
+# 🧑‍💼 Employee Manager
 
-Fullstack Employee Manager with React frontend and PHP + MySQL backend. Enables create, read, update, and delete (CRUD) operations for employees in a clean and functional interface.
+Fullstack Employee Manager with **React** frontend and **PHP + MySQL** backend.  
+Enables **create, read, update, and delete (CRUD) operations** for employees in a clean and functional interface.
 
-📌 Technologies
+---
 
-Frontend:
+## 📌 Technologies
 
-React
+**Frontend:**
+- React
+- JavaScript
+- HTML / CSS
+- Fetch API for backend communication
 
-JavaScript
+**Backend:**
+- PHP
+- MySQL
+- REST API
 
-HTML / CSS
+**Tools:**
+- Git / GitHub
+- Node.js / npm
 
-Fetch API for backend communication
+---
 
-Backend:
+## 🚀 Features
 
-PHP
+- ✅ List employees
+- ✅ Add employee
+- ✅ Edit employee
+- ✅ Delete employee
+- 🔄 Frontend ↔ backend communication via REST API
 
-MySQL
+---
 
-REST API
+## 📁 Project Structure
 
-Tools:
 
-Git / GitHub
-
-Node.js / npm
-
-🚀 Features
-
-List employees
-
-Add employee
-
-Edit employee
-
-Delete employee
-
-Frontend ↔ backend communication via REST API
-
-📁 Project Structure
 employee-manager/
 │
-├─ employee-frontend/       # React Frontend
-│   ├─ public/
-│   └─ src/
-│       ├─ components/
-│       │   ├─ EmployeeForm.js
-│       │   └─ EmployeeList.js
-│       └─ App.js
+├─ employee-frontend/ # React Frontend
+│ ├─ public/
+│ └─ src/
+│ ├─ components/
+│ │ ├─ EmployeeForm.js
+│ │ └─ EmployeeList.js
+│ └─ App.js
 │
-├─ employee-api/            # PHP Backend
-│   ├─ createEmployee.php
-│   ├─ deleteEmployee.php
-│   ├─ getEmployees.php
-│   ├─ updateEmployee.php
-│   └─ db.php               # MySQL connection
+├─ employee-api/ # PHP Backend
+│ ├─ createEmployee.php
+│ ├─ deleteEmployee.php
+│ ├─ getEmployees.php
+│ ├─ updateEmployee.php
+│ └─ db.php # MySQL connection
 │
 └─ README.md
-⚙️ Installation & Setup
-Backend (PHP + MySQL)
 
-Set up a local server (XAMPP, WAMP, MAMP, etc.)
 
-Create a database employee_manager in MySQL
+---
 
-Create the employees table:
+## ⚙️ Installation & Setup
 
+### Backend (PHP + MySQL)
+
+1. Set up a local server (XAMPP, WAMP, MAMP, etc.)  
+2. Create a database `employee_manager` in MySQL  
+3. Create the `employees` table:
+
+```sql
 CREATE TABLE employees (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -93,7 +93,8 @@ Start the React app:
 
 npm start
 
-The app will open at http://localhost:3000 and communicate with your PHP backend.
+The app will open at http://localhost:3000
+ and communicate with your PHP backend.
 
 📌 Usage
 
@@ -105,6 +106,8 @@ Delete employee: click “Delete”
 
 The employee list updates automatically
 
+📝 Notes
+
 Ideal project to learn basic Fullstack development
 
 Demonstrates how React interacts with PHP using Fetch API and JSON
@@ -114,4 +117,4 @@ Perfect for portfolio or CRUD practice
 📫 Contact
 
 Gustavo — Backend & Fullstack Developer
-GitHub
+GitHub: [Your GitHub Link Here]
