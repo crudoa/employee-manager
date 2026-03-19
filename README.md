@@ -116,5 +116,5 @@ Perfect for portfolio or CRUD practice
 
 ## 📫 Contact
 
-** Gustavo — Backend & Fullstack Developer **
-** GitHub: https://github.com/crudoa **
+Gustavo — Backend & Fullstack Developer
+GitHub: https://github.com/crudoa
