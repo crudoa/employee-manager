@@ -74,7 +74,7 @@ CREATE TABLE employees (
     email VARCHAR(100) NOT NULL,
     role VARCHAR(50) NOT NULL
 );
-
+```
 Edit db.php with your MySQL credentials.
 
 Place the employee-api folder in your server’s root (htdocs or similar).
@@ -96,7 +96,7 @@ npm start
 The app will open at http://localhost:3000
  and communicate with your PHP backend.
 
-📌 Usage
+## 📌 Usage
 
 Add employee: fill in the form and click “Add”
 
@@ -106,7 +106,7 @@ Delete employee: click “Delete”
 
 The employee list updates automatically
 
-📝 Notes
+## 📝 Notes
 
 Ideal project to learn basic Fullstack development
 
@@ -114,7 +114,7 @@ Demonstrates how React interacts with PHP using Fetch API and JSON
 
 Perfect for portfolio or CRUD practice
 
-📫 Contact
+## 📫 Contact
 
-Gustavo — Backend & Fullstack Developer
-GitHub: [Your GitHub Link Here]
+** Gustavo — Backend & Fullstack Developer **
+** GitHub: https://github.com/crudoa **
